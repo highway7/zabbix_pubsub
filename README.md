@@ -5,8 +5,8 @@ Two example scripts for sending [custom alerts][zbx_customalerts] to a [GCP Pub/
 This code is intended to be an _example_. You will likely need to change or
 update values to match your setup.
 
-* [**zbx_pubsub.py**] - a python script to publish alert to Pub/Sub
-* [**zbx__pubsub.sh**] - a shell script to publish alert to Pub/Sub
+* [zbx_pubsub.py][py] - a python script to publish alert to Pub/Sub
+* [zbx__pubsub.sh][sh] - a shell script to publish alert to Pub/Sub
 
 # Reference
 
@@ -15,3 +15,5 @@ update values to match your setup.
 [pub/sub]: https://cloud.google.com/pubsub/docs/publisher
 [zbx_customalerts]: https://www.zabbix.com/documentation/current/manual/config/notifications/media/script
 [sriccio]: https://github.com/sriccio/zabbix-alertscripts
+[py]: https://github.com/highway7/zabbix_pubsub/blob/main/zbx_pubsub.py
+[sh]: https://github.com/highway7/zabbix_pubsub/blob/main/zbx_pubsub.sh
