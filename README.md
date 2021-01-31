@@ -1,6 +1,6 @@
 # Zabbix Custom AlertScripts - GCP Pub/Sub 
 
-Two example scripts for sending [custom alerts] [zbx_customalerts] to a [GCP Pub/Sub Topic] [pub/sub]. 
+Two example scripts for sending [custom alerts][zbx_customalerts] to a [GCP Pub/Sub Topic][pub/sub]. 
 
 This code is intended to be an _example_. You will likely need to change or
 update values to match your setup.
@@ -10,7 +10,7 @@ update values to match your setup.
 
 # Reference
 
-[Zabbix alertscripts] [sriccio] provides good details of deploying the customer scripts and configuring a new Zabbix media type. 
+[Zabbix alertscripts][sriccio] provides good details of deploying the customer scripts and configuring a new Zabbix media type. 
 
 [pub/sub]: https://cloud.google.com/pubsub/docs/publisher
 [zbx_customalerts]: https://www.zabbix.com/documentation/current/manual/config/notifications/media/script
